@@ -1,20 +1,22 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import {StyleSheet, View, Text, Alert} from 'react-native';
 
 export default function App() {
   const [result, setResult] = React.useState();
 
   React.useEffect(() => {
-    setResult(global.helloWorld())
+    global.test1('Azaza', r => {
+      console.log('dsalkjdsajlkdasjkldsaklj', r);
+      setResult(r);
+    });
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text >Result: {result}</Text>
+      <Text>Result: {result}</Text>
     </View>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {

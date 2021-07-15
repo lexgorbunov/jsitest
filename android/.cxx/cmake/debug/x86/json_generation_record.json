@@ -1,26 +1,392 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 16 min SDK version: x86"
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "Trying to locate CMake in local SDK repository."
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "- CMake found in SDK at \u0027/Users/ammarahmed/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027"
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "CMake \u00273.6.0\u0027 found in SDK could not satisfy requested version \u00273.8.0\u0027 because it was lower."
+    "message": "- CMake found in SDK at \u0027/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86/android_gradle_build.json\u0027 was up-to-date"
+    "message": "CMake \u00273.18.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed without problems"
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86/android_gradle_build.json due to:",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/ammarahmed/Library/Android/sdk/ndk/20.1.5948944/build/cmake/platforms.cmake",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/CMakeLists.txt",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/ammarahmed/Library/Android/sdk/ndk/20.1.5948944/build/cmake/android.toolchain.cmake",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86\u0027",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86\u0027",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android\n-DCMAKE_CXX_FLAGS\u003d-fexceptions -frtti -std\u003dc++1y -DONANDROID\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/prefab/x86/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/build/intermediates/cmake/debug/obj/x86\n-DCMAKE_MAKE_PROGRAM\u003d/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_STL\u003dc++_shared\n-DNODE_MODULES_DIR\u003d/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/../node_modules\n-B/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86\n-GNinja\njvmArgs : \n\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android\",\n  \"buildDirectory\": \"/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-fexceptions -frtti -std\\u003dc++1y -DONANDROID\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/prefab/x86/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003d/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/build/intermediates/cmake/debug/obj/x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_STL\\u003dc++_shared\",\n    \"-DNODE_MODULES_DIR\\u003d/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/../node_modules\"\n  ]\n}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error: The following variables are used in this project, but they are set to NOTFOUND.\\nPlease set them or make sure they are set and tested correctly in the CMake files:\\nREACT_NATIVE_JNI_LIB\\n    linked by target \\\"cpp\\\" in directory /Users/aleksandrgorbunov/srv/react-native-simple-jsi/android\\nREACT_NATIVE_UTILS_LIB\\n    linked by target \\\"cpp\\\" in directory /Users/aleksandrgorbunov/srv/react-native-simple-jsi/android\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error: The following variables are used in this project, but they are set to NOTFOUND.\nPlease set them or make sure they are set and tested correctly in the CMake files:\nREACT_NATIVE_JNI_LIB\n    linked by target \"cpp\" in directory /Users/aleksandrgorbunov/srv/react-native-simple-jsi/android\nREACT_NATIVE_UTILS_LIB\n    linked by target \"cpp\" in directory /Users/aleksandrgorbunov/srv/react-native-simple-jsi/android",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\\nSee also \\\"/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log\\\".\",\"type\":\"message\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring incomplete, errors occurred!\nSee also \"/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log\".",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "ERROR",
+    "message": "Configuration failed.",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin).\r\nCheck for working C compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\nCheck for working C compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\nDetecting C compiler ABI info\nDetecting C compiler ABI info - done\nDetecting C compile features\nDetecting C compile features - done\nCheck for working CXX compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\nCheck for working CXX compiler: /Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\nDetecting CXX compiler ABI info\nDetecting CXX compiler ABI info - done\nDetecting CXX compile features\nDetecting CXX compile features - done\nCMake Error: The following variables are used in this project, but they are set to NOTFOUND.\nPlease set them or make sure they are set and tested correctly in the CMake files:\nREACT_NATIVE_JNI_LIB\n    linked by target \"cpp\" in directory /Users/aleksandrgorbunov/srv/react-native-simple-jsi/android\nREACT_NATIVE_UTILS_LIB\n    linked by target \"cpp\" in directory /Users/aleksandrgorbunov/srv/react-native-simple-jsi/android\n\nConfiguring incomplete, errors occurred!\nSee also \"/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86/CMakeFiles/CMakeOutput.log\".\n",
+    "file": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+    "tag": "debug|x86"
   }
 ]

@@ -1,72 +1,224 @@
 {
-  "variant": {
-    "module": {
-      "rootBuildGradleFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/android",
-      "sdkFolder": "/Users/ammarahmed/Library/Android/sdk",
-      "isNativeCompilerSettingsCacheEnabled": false,
-      "isBuildOnlyTargetAbiEnabled": true,
-      "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/build/intermediates",
-      "gradleModulePathName": ":react-native-simple-jsi",
-      "moduleRootFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android",
-      "makeFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/CMakeLists.txt",
-      "buildSystem": "CMAKE",
-      "compilerSettingsCacheFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/android/.cxx",
-      "cxxFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx",
-      "ndkFolder": "/Users/ammarahmed/Library/Android/sdk/ndk/20.1.5948944",
-      "ndkVersion": "20.1.5948944",
-      "ndkSupportedAbiList": [
-        "ARMEABI_V7A",
-        "ARM64_V8A",
-        "X86",
-        "X86_64"
+  "abi": "X86",
+  "abiPlatformVersion": 16,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86",
+    "cmakeServerLogFile": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cxx/debug/x86",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
       ],
+      "buildRoot": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86",
+      "cmakeToolchain": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-fexceptions -frtti -std\u003dc++1y -DONANDROID"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/prefab/x86/prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-16"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/build/intermediates/cmake/debug/obj/x86"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "16"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_shared"
+        },
+        {
+          "name": "NODE_MODULES_DIR",
+          "value": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/../node_modules"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/x86",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared",
+      "-DNODE_MODULES_DIR\u003d/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/../node_modules"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [
+      "-fexceptions",
+      "-frtti",
+      "-std\u003dc++1y",
+      "-DONANDROID"
+    ],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/Users/aleksandrgorbunov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "cmakeToolchainFile": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx",
+      "gradleModulePathName": ":",
+      "intermediatesFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/build/intermediates",
+      "makeFile": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/CMakeLists.txt",
+      "moduleBuildFile": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/build.gradle",
+      "moduleRootFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "cmakeToolchainFile": "."
+      "ndkFolder": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "21.1.6352462",
+      "project": {
+        "compilerSettingsCacheFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx",
+        "cxxFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android",
+        "sdkFolder": "/Users/aleksandrgorbunov/Library/Android/sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/aleksandrgorbunov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
     },
-    "buildSystemArgumentList": [],
-    "cFlagList": [],
-    "cppFlagsList": [
-      "-O2 -frtti -fexceptions -Wall -fstack-protector-all"
-    ],
+    "objFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
-    "soFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/build/intermediates/cmake/debug/lib",
-    "objFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/build/intermediates/cmake/debug/obj",
-    "jsonFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug",
-    "gradleBuildOutputFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug",
-    "isDebuggableEnabled": true,
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A",
       "X86",
       "X86_64"
     ],
-    "buildTargetSet": []
+    "prefabDirectory": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/prefab",
+    "prefabPackageDirectoryList": []
   },
-  "abi": "X86",
-  "abiPlatformVersion": 16,
-  "cxxBuildFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86",
-  "jsonFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86/android_gradle_build.json",
-  "gradleBuildOutputFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86",
-  "objFolder": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/build/intermediates/cmake/debug/obj/x86",
-  "buildCommandFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86/build_command.txt",
-  "buildOutputFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86/build_output.txt",
-  "modelOutputFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86/build_model.json",
-  "cmake": {
-    "cmakeListsWrapperFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86/CMakeLists.txt",
-    "toolchainWrapperFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86/android_gradle_build.toolchain.cmake",
-    "buildGenerationStateFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86/build_generation_state.json",
-    "cacheKeyFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86/compiler_cache_key.json",
-    "compilerCacheUseFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86/compiler_cache_use.json",
-    "compilerCacheWriteFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86/compiler_cache_write.json",
-    "toolchainSettingsFromCacheFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cxx/debug/x86/compiler_settings_cache.cmake",
-    "cmakeWrappingBaseFolder": "."
-  },
-  "jsonGenerationLoggingRecordFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86/json_generation_record.json",
-  "compileCommandsJsonFile": "/Users/ammarahmed/Repos/react-native-simple-jsi/example/node_modules/react-native-simple-jsi/android/.cxx/cmake/debug/x86/compile_commands.json"
+  "prefabFolder": "/Users/aleksandrgorbunov/srv/react-native-simple-jsi/android/.cxx/cmake/debug/prefab/x86"
 }

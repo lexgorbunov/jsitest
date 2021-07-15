@@ -11,7 +11,7 @@ add_library(
         ${PACKAGE_NAME}
         SHARED
         ../cpp/example.cpp
-        ./cpp-adapter.cpp
+        ./main/cpp/*
 )
 
 target_include_directories(
